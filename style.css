@@ -1,14 +1,82 @@
-*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-. body {
+body {
     font-family: sans-serif;
-    padding: 1 rem;
+    padding: 1rem;
     background-color: darkcyan;
 }
 
-. h1 {
+h1 {
     text-align: center;
-    margin-top: 1 rem;
-    margin-bottom: 1 rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     color: crimson;
 }
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    align-content: center;
+    max-width: 1440px;
+}
+
+.pokemon-flex {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: coral;
+}
+
+.pokemon-image {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+.pokemon-name {
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+.pokemon-description {
+    line-height: 1.36rem;
+}
+
+.pokemon-powers-flex{
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.pokemon-skill {
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    font-size: .75rem;
+    color: black;
+    background-color: blue;
+}
+
+.pokemon-type{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    border-radius: 1.6rem;
+    color: blueviolet;
+    background-color: darkgoldenrod;
+}
+
