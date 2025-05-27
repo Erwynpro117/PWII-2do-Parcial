@@ -1,0 +1,14 @@
+*
+
+. body {
+    font-family: sans-serif;
+    padding: 1 rem;
+    background-color: darkcyan;
+}
+
+. h1 {
+    text-align: center;
+    margin-top: 1 rem;
+    margin-bottom: 1 rem;
+    color: crimson;
+}
